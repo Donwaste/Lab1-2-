@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdf6e3;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    color: blue;
+}
+
+.character-info {
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff3cd;
+    border: 2px solid #d3a95f;
+    border-radius: 10px;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: 'Georgia', serif;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile img {
+    width: 300px;
+    height: 300px;
+    margin-right: 30px;
+    border-radius: 10px;
+    border: 2px solid #d3a95f;
+}
+
+.personal-data table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.personal-data th, .personal-data td {
+    border: 1px solid #d3a95f;
+    padding: 10px;
+    text-align: left;
+}
+
+.personal-data th {
+    background-color: #e6c47a;
+    color: #333;
+}
+
+.personal-data td {
+    background-color: #ffe3a5;
+    position: relative;
+}
+
+.color-box {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #333;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.bio-catchphrases {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.biography {
+    width: 70%;
+    background-color: #fff3cd;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #d3a95f;
+}
+
+.catchphrases {
+    width: 30%;
+    background-color: #fff3cd;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #d3a95f;
+}
+
+.catchphrases ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.catchphrases ul li {
+    background-color: #ffe3a5;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #d3a95f;
+}
+
+
